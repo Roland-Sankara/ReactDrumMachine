@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 4rem;
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+#drum-box{
+    width: 630px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#drum-box > div{
+    flex-basis: 200px;
+    margin: 4px;
+    padding:3rem;
+    border: 1px solid teal;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgb(57, 66, 66);
+    color: white;
+    font-weight: 700;
+
+}
+
+#drum-box > div:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+    background-color: tomato;
+}
+
+#display{
+    width:30%;
+    margin: 2rem auto;
+    border:2px solid teal;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
