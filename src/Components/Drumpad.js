@@ -27,7 +27,7 @@ function Drumpad(props){
         return()=>{
             document.removeEventListener('keydown',handleKeyDown);
         }
-    },[])
+    })
 
     return(
         <div className="drum-pad" onClick={displayClickText} id={props.audioClip.clipName}>
